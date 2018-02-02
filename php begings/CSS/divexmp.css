@@ -1,0 +1,48 @@
+.divexmp{
+	color: black;
+	border: 2px solid red;
+	width:40%;
+	height:40%;
+	background-color:gray;
+	background-image:url("uv1.jpg");
+	padding:5xp;
+	text-align: center; 
+	float:left;	
+	
+}
+
+.x{
+	width:500px;
+	height:500px;
+	position:sticky;
+	top:0;
+}
+
+/* for position we can use "position:static" that do not move the block position     and  
+"position:relative" the relate the div to another div and replace div position in respective div ;
+and "position:absolute" allow the div to move freely along the div the relate to it. "position="fix " use to fix block in the screen  and 
+"position=sticky" its use to stick to the div*/
+.div1{
+	color:red;
+	background-color:black;
+		border:2px dotted yellow; 
+	width:200px;
+	height:200px;
+
+	position: sticky;
+	top:0;
+}
+
+.div2{
+	color:black;
+	background-color:red;
+	border:2px dotted yellow;  
+	width:50px;
+	height:50px;
+	/*position:absolute;*/
+	left:35%;
+	bottom:0;
+	position: sticky;
+	top:0;
+	
+}

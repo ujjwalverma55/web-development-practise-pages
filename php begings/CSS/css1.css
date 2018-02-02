@@ -1,0 +1,23 @@
+.topleft{
+	color: white;
+	background-color: black;
+	border:5px solid green;
+	display: inline;
+    width: 45%;
+	height: 60%;
+	float: left;
+	margin: 3px;
+	text-align: center;
+}
+
+.topright{
+	color: black;
+	background-color:white;
+	border: 5px solid green;
+	display:inline;
+	width:45%;
+	height:60%;
+	float: left;
+	margin: 3px;
+	text-align: center;
+}

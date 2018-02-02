@@ -1,0 +1,25 @@
+#theForm {
+
+color:white;
+display: table;
+padding: 15px;
+background-color: #dd4b39;
+border: solid 2px black;
+
+}
+
+.row {
+display: table-row;
+}
+
+.row label {
+display: table-cell;
+padding: 2px;
+text-align:right;
+
+}
+
+.row input {
+display: table-cell;
+padding: 2px;
+}

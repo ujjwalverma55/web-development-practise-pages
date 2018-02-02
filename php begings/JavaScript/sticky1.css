@@ -1,0 +1,53 @@
+/*"box sizing: border-box" is use to when we dont  want to impact the efeect of padding in box size or div size*/
+*{
+	box-sizing:border-box;
+}
+.clear{
+	clear: both;
+}
+.div1{
+	margin-top:50px;
+	width:100%;
+	height:200px;
+	background-color:red;
+}
+
+
+.div2{
+	width:100%;
+	height:200px;
+	background-color:blue;
+	position:sticky;
+	top:0;
+	/* "z-index" is use to provide priority to the divs
+	"opacity" is use to transparency of the div and very between the the 0 to 1.*/
+	z-index:2;
+	opacity: 0.5;
+}
+
+#div3
+{
+	width:auto;
+	height:auto;
+	background-color: green;
+	z-index:1;
+	padding: 20px;
+	overflow:scroll;
+text-align: justify;	/* or we can use "hidden"  it is use when text overflow from the div */
+}
+
+/*     background-color
+       background_image 
+	   background-repeat
+	   background-position
+	   background-attachment    use all in one to shorthand */
+
+
+ .div4{
+	 background: red url("uv1.jpg") no-repeat right top fixed ;
+ }
+#test
+{
+	color:red;
+	
+}
